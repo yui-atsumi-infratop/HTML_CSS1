@@ -64,3 +64,50 @@ footer{
     height: 50px;
     background-color: #aaa;
 }
+
+@media screen and (max-width: 768px){
+    header{
+     width:100%;
+     height: 50px;
+    }
+
+    main{
+        width: 90%;
+        display: block;
+        margin: 50px;
+    }
+
+    .step-box{
+        width: 90%;
+        margin-bottom: 20px;
+        padding: auto;
+    }
+
+    .step-box:last-child{
+        margin-bottom: 50px;
+    }
+
+    .step-img1{
+        width: 90%;
+        height: 150px;
+    }
+
+    .step-img2{
+        width: 90%;
+        height: 150px;
+    }
+
+    .step-img3{
+        width: 90%;
+        height: 150px;
+    }
+
+    .title{
+        width:90%;
+    }
+
+    footer{
+        width:100%;
+        height:50px;
+    }
+}
